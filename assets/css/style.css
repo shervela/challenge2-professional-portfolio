@@ -1,0 +1,59 @@
+* {
+  /* outline: dashed red 1px; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d61c4e;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fac213;
+  color: #d61c4e;
+  flex-wrap: wrap;
+}
+h1 {
+  font-size: 45px;
+}
+
+#subhead {
+  height: 225px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background: url(https://cdn.wallpapersafari.com/82/62/XIfisO.jpg);
+  background-position: center center;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+.content header {
+  width: 25%;
+  text-align: right;
+  padding-right: 10px;
+}
+.content div {
+  width: 75%;
+  padding-left: 10px;
+  border-left: solid red 5px;
+}
+.content top {
+  display: flex;
+  justify-content: flex-end;
+}
+.content below {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contact-me p a {
+  display: flex;
+  justify-content: space-evenly;
+}
+#contact-me p a {
+  display: flex;
+  justify-content: space-evenly;
+}
